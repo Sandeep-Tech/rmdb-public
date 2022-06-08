@@ -22,7 +22,7 @@ const SearchBar = ({ setSearchTerm }) => {
     }, 500);
 
     return () => {
-      clearInterval(timer);
+      clearTimeout(timer);
     };
   }, [setSearchTerm, state]);
 
