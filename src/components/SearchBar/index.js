@@ -20,6 +20,10 @@ const SearchBar = ({ setSearchTerm }) => {
     const timer = setTimeout(() => {
       setSearchTerm(state);
     }, 500);
+
+    return () => {
+      clearInterval(timer);
+    };
   }, [setSearchTerm, state]);
 
   return (
@@ -37,9 +41,8 @@ const SearchBar = ({ setSearchTerm }) => {
   );
 };
 
-
 SearchBar.propTypes = {
-  callback: PropTypes.func
-}
+  callback: PropTypes.func,
+};
 
 export default SearchBar;

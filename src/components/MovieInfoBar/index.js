@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 // helpers
 import { calcTime, convertMoney } from "../../helpers";
-import Movie from "../Movie";
 
 // styles
 import { Wrapper, Content } from "./MovieInfoBar.styles";
