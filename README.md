@@ -1,4 +1,4 @@
-# Example project from FCC[^fcc-link]'s React JS Course for Beginners - 2021 Tutorial[^tut-link]
+# Example project from *FCC[^fcc-link]*'s *React JS Course for Beginners - 2021 Tutorial[^tut-link]*
 
 ## This app is deloyed on Netlify.
 
