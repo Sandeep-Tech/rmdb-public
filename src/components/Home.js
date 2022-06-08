@@ -5,10 +5,10 @@ import { POSTER_SIZE, BACKDROP_SIZE, IMAGE_BASE_URL } from "../config";
 
 // components
 import HeroImage from "./HeroImage";
+import SearchBar from "./SearchBar";
 import Grid from "./Grid";
 import Thumb from "./Thumb";
 import Spinner from "./Spinner";
-import SearchBar from "./SearchBar";
 import Button from "./Button";
 
 // hook
@@ -26,9 +26,7 @@ const Home = () => {
     setSearchTerm,
     setIsLoadingMore,
   } = useHomeFetch();
-
-  console.log(state);
-
+  
   if(error) return <div>Something went wrong!</div>
 
   return (
